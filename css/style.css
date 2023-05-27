@@ -1,0 +1,256 @@
+* {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 44px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 38px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+b {
+    font-weight: 400;
+}
+
+header ul {
+    display: block;
+    list-style-type: none;
+    width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: inline-block;
+    font-weight: 400;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #b9b9b9;
+    border-right: 1px solid #686868;
+    border-left: 1px solid #686868;
+}
+
+header li img {
+    display: inline;
+}
+
+.container img {
+    display: inline-block;
+    width: 1440px;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bottom-left {
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ffffff
+}
+
+.bottom-header {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    color: #ffffff;
+}
+
+footer {
+    display: block;
+    background-color: #5a5a5a;
+    width: 1430px;
+    height: fit-content;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    border-top: #424242 solid 5px;
+}
+
+footer a:link {
+    text-decoration: none;
+    font-style: italic;
+}
+
+main a:link {
+    color: #000000;
+}
+
+a:hover {
+    color: #249437;
+}
+
+footer li,
+footer a,
+footer h3 {
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-weight: 400;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b9b9b9;
+    color: #249437;
+    border-right: 1px solid #686868;
+    border-left: 1px solid #686868;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fffefe;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #e2e2e2;
+    color: #249437;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.left {
+    display: inline-block;
+    margin-left: 400px;
+    text-align: left;
+}
+
+.right {
+    display: inline-block;
+    margin-left: 100px;
+    text-align: left;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.main {
+    display: inline-block;
+    width: 900px;
+    height: fit-content;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    object-fit: contain;
+    border: #b9b9b9 1px;
+    border-style: solid;
+    box-shadow: #dddddd 5px 5px;
+}
+
+.ad {
+    display: inline-block;
+    width: 300px;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    vertical-align: top;
+    margin-left: 150px;
+    border: #b9b9b9 1px;
+    border-style: solid;
+    box-shadow: #dddddd 5px 5px;
+}
+
+.main img {
+    width: 500px;
+    height: 200px;
+    object-fit: contain;
+    text-align: left;
+}
+
+.ad img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    text-align: center;
+}
+
+body {
+    display: block;
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    display: block;
+    width: 1200px;
+}
+
+.topnav a.icon {
+    display: none;
+}

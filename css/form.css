@@ -1,0 +1,86 @@
+th {
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+td {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+h2 {
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+}
+
+#usernameAlert {
+    display: table-cell;
+    color: #b90101;
+}
+
+#phoneAlert {
+    display: table-cell;
+    color: #b90101;
+}
+
+#timeAlert {
+    display: table-cell;
+    color: #b90101;
+}
+
+#timeNumberAlert {
+    display: table-cell;
+    color: #b90101;
+}
+
+#playerAlert {
+    display: table-cell;
+    color: #b90101;
+}
+
+#teamAlert {
+    display: table-cell;
+    color: #b90101;
+}
+
+#time {
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #249437;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
